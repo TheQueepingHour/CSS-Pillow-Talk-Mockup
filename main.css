@@ -47,7 +47,6 @@ header {
     margin-bottom: 20px;
 }
 header div {
-    display: flex;
     flex-wrap: wrap;
     width: 50%;
     margin-bottom: 20px;
@@ -57,6 +56,7 @@ header h1 {
 }
 header div:last-child {
     display: flex;
+    width: 50%;
     align-items: center;
     justify-content: right;
 }
@@ -76,6 +76,7 @@ aside {
     flex-basis: 15%;
     min-width: 15%;
     display: flex;
+    flex-grow: 1;
     justify-content: flex-start;
     align-items: center;
 }
@@ -98,6 +99,7 @@ div[class$='row'] {
     align-items: center;
     justify-content: space-between;
     margin-bottom: 1em;
+    flex-grow: 1;
 }
 .row-1 img {
     width: 100%;
